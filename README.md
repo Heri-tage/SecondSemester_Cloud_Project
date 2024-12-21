@@ -6,16 +6,16 @@ This repository is a Project examination assigned to me
 ***Cloud Provider used:*** AWS
 1. **Launching and Configuring a New Instance:** I launched a new instance, using Ubuntu as my as the operating system. I configured the CPU, memory and network settings based on the performance needs. I generated a new ssh key for my instance using AWS and saved the key in pem form as this key would be used to securely connect to my server.
 2. **Setting Up Security Groups and Network:** I defined the inbound traffic to allow HTTP traffic and I also defined HTTPS rule like this:
-*   HTTP rule:
-    - Type: HTTP
-    - Protocol: TCP
-    - Port Range: 80
-    - Destination: 0.0.0.0/0 (for IPv4) and ::/0 (for IPv6) to allow traffic to any IP address.
-* Similarly, I added a rule for HTTPS:
-    - Type: HTTPS
-    - Protocol: TCP
-    - Port Range: 443
-    - Destination: 0.0.0.0/0 (for IPv4) and ::/0 (for IPv6) to allow traffic to any IP address.
+   *   HTTP rule:
+         - Type: HTTP
+         - Protocol: TCP
+         - Port Range: 80
+         - Destination: 0.0.0.0/0 (for IPv4) and ::/0 (for IPv6) to allow traffic to any IP address.
+   * Similarly, I added a rule for HTTPS:
+       - Type: HTTPS
+       - Protocol: TCP
+       - Port Range: 443
+       - Destination: 0.0.0.0/0 (for IPv4) and ::/0 (for IPv6) to allow traffic to any IP address.
 
 3. **Connecting to my server:** Using my local terminal(bash) I connected to my server using the command:
     ```bash
