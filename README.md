@@ -44,7 +44,7 @@ This repository is a Project examination assigned to me. It's just a simple webs
    sudo chown -R www-data:www-data /var/www/html
    sudo chmod -R 755 /var/www/html
    ```
-8. **Restarted Apache:** I restarted apache to apply the changes.
+8. **Restarted Apache:** I restarted apache to apply the changes. Voilà! the site can be viewed using the public ip address of the machine.
    ```bash
    sudo systemctl restart apache2
    ```
