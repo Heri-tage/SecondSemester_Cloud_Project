@@ -48,5 +48,5 @@ This repository is a Project examination assigned to me. It's just a simple webs
    ```bash
    sudo systemctl restart apache2
    ```
-![alt text](./image.png)
+![Screenshot of the site](./image.png)
 You can view the deployed site [here](www.iremide.mooo.com).
