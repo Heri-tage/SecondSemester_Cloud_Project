@@ -1,9 +1,10 @@
 # SecondSemester_Cloud_Project
-This repository is a Project examination assigned to me 
+This repository is a Project examination assigned to me. It's just a simple website I deployed.
 
 **<u>Step-by-step documentation of how I provisioned the server, installed the web server, deployed the HTML page, and configured networking.</u>**
 
-***Cloud Provider used:*** AWS
+***Cloud Provider used:*** AWS <br>
+***IP address:*** 35.179.147.230
 1. **Launching and Configuring a New Instance:** I launched a new instance, using Ubuntu as my as the operating system. I configured the CPU, memory and network settings based on the performance needs. I generated a new ssh key for my instance using AWS and saved the key in pem form as this key would be used to securely connect to my server.
 2. **Setting Up Security Groups and Network:** I defined the inbound traffic to allow HTTP traffic and I also defined HTTPS rule like this:
    *   HTTP rule:
@@ -47,4 +48,5 @@ This repository is a Project examination assigned to me
    ```bash
    sudo systemctl restart apache2
    ```
+![alt text](./image.png)
 You can view the deployed site [here](www.iremide.mooo.com).
