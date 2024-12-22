@@ -57,7 +57,7 @@ This repository is a Project examination assigned to me. It's just a simple webs
       ```
    3. **Obtained the SSl certificate:** I used this command to obtain and install the certificate
       ```bash
-      sudo certbot --apache -d example.com -d www.example.com
+      sudo certbot --apache -d iremide.moo.com.com -d www.iremide.mooo.com
       ```
    4. **Verified the installation:** Certbot automatically configures your web server to use the new certificate. I verified the installation by visiting my site using `https://`
 
