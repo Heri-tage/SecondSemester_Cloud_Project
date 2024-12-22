@@ -48,5 +48,18 @@ This repository is a Project examination assigned to me. It's just a simple webs
    ```bash
    sudo systemctl restart apache2
    ```
+
+## How I added SSL Certificate
+   1. **Chose a Certificate Authority(CA):** I chose let's encrypt. They provide free, automated and open certificate
+   2. **Installed Certbot:** Certbot is a tool that automates the process of obtaining and renewing Let’s Encrypt SSL certificates. The installation process varies depending on your web server and operating system. I used a Linux machine and Apache webserver for this project:
+      ```bash
+        sudo apt install certbot python3-certbot-apache
+      ```
+   3. **Obtained the SSl certificate:** I used this command to obtain and install the certificate
+      ```bash
+      sudo certbot --apache -d example.com -d www.example.com
+      ```
+   4. **Verified the installation:** Certbot automatically configures your web server to use the new certificate. I verified the installation by visiting my site using `https://`
+
 ![Screenshot of the site](./image.png)
 You can view the deployed site [here](www.iremide.mooo.com).
